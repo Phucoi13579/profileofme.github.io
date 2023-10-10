@@ -1,0 +1,50 @@
+.body {
+      background-image: url('puung2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+.box-love{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 37%;
+	top: 35%;
+}
+.box{
+ position: absolute;
+  top: 40%;
+  left: 35%
+}
+button{
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  background: red;
+  color: #fff;
+  outline:none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+button:hover{
+  cursor:pointer;
+  opacity: 0.6;
+}
+span{
+   position: absolute;
+  top: 10%;
+  left: 15%;
+  text-align: center;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 30px;
+  color: #f8f9fa;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.move{
+        transform: translate(-200%, -200% );
+         transition: 0.01s;
+  }
+     
